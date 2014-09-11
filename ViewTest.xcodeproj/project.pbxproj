@@ -19,6 +19,7 @@
 		74D3E28D19C164B500FDD426 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D3E27519C164B400FDD426 /* UIKit.framework */; };
 		74D3E29519C164B500FDD426 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74D3E29319C164B500FDD426 /* InfoPlist.strings */; };
 		74D3E29719C164B500FDD426 /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D3E29619C164B500FDD426 /* ViewTestTests.m */; };
+		74D3E2A519C166C700FDD426 /* SOSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D3E2A419C166C700FDD426 /* SOSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		74D3E29219C164B500FDD426 /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		74D3E29419C164B500FDD426 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74D3E29619C164B500FDD426 /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		74D3E2A319C166C700FDD426 /* SOSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SOSimpleView.h; path = ../SOSimpleView.h; sourceTree = "<group>"; };
+		74D3E2A419C166C700FDD426 /* SOSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SOSimpleView.m; path = ../SOSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				74D3E28019C164B400FDD426 /* SOAppDelegate.h */,
 				74D3E28119C164B400FDD426 /* SOAppDelegate.m */,
+				74D3E2A319C166C700FDD426 /* SOSimpleView.h */,
+				74D3E2A419C166C700FDD426 /* SOSimpleView.m */,
 				74D3E28319C164B400FDD426 /* Images.xcassets */,
 				74D3E27819C164B400FDD426 /* Supporting Files */,
 			);
@@ -242,6 +247,7 @@
 			files = (
 				74D3E28219C164B400FDD426 /* SOAppDelegate.m in Sources */,
 				74D3E27E19C164B400FDD426 /* main.m in Sources */,
+				74D3E2A519C166C700FDD426 /* SOSimpleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

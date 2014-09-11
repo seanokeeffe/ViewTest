@@ -7,6 +7,7 @@
 //
 
 #import "SOAppDelegate.h"
+#import "SOSimpleView.h"
 
 @implementation SOAppDelegate
 
@@ -14,6 +15,19 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    // create view
+    CGRect frame1 = CGRectMake(50, 50, 100, 100);
+    SOSimpleView* view1 = [[SOSimpleView alloc] initWithFrame:frame1];
+    view1.backgroundColor = [UIColor whiteColor];
+    [_window addSubview:view1];
+    
+    // create another view
+    CGRect frame2 = CGRectMake(20, 20, 50, 50);
+    SOSimpleView* view2 = [[SOSimpleView alloc] initWithFrame:frame2];
+    view2.backgroundColor = [UIColor blueColor];
+    [view1 addSubview:view2];
+    
     self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
     return YES;
